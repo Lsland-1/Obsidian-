@@ -1,4 +1,5 @@
 //图像源模块
+//图像源模块
 ImageSourceModuleTool * ImageSourceTool = (ImageSourceModuleTool *)(*m_pVmSol)["流程1.图像源1"];
 void* ImageSourceToolParamData = ImageSourceTool->GetParamObj()->GetControlInfo();
 qlonglong renderCtrlPData = (qlonglong)ImageSourceToolParamData;
